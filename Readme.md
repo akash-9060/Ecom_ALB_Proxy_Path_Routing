@@ -16,7 +16,7 @@ Key steps:
   - `/` → Home page  
   - `/orders` → Orders page  
   - `/accounts` → Account page  
-- Mapped the **ALB DNS** to a custom domain **(chintaniskoda.xyz)** using **Route 53**.  
+- Mapped the **ALB DNS** to a custom domain **(akashaws.xyz)** using **Route 53**.  
 - Integrated **HTTPS** using **AWS Certificate Manager (ACM)** and redirected all HTTP traffic to HTTPS.  
 - Ensured **security isolation** by keeping backend EC2 servers in private subnets while exposing only the ALB to the public.
 
